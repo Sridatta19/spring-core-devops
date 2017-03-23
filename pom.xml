@@ -86,4 +86,16 @@
 	</build>
 	
 
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>f8b174b8898b-releases</name>
+			<url>http://127.0.0.1:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>f8b174b8898b-snapshots</name>
+			<url>http://127.0.0.1:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
